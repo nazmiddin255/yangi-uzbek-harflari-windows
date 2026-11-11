@@ -1,0 +1,32 @@
+// Versiya ma'lumoti (build.sh V1/V2/V3/VERSTR ni beradi)
+#ifndef V1
+#define V1 1
+#define V2 0
+#define V3 0
+#define VERSTR "1.0.0"
+#endif
+1 VERSIONINFO
+FILEVERSION V1,V2,V3,0
+PRODUCTVERSION V1,V2,V3,0
+FILEOS 0x40004
+FILETYPE 2
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "nazmiddin255 (GitHub)"
+      VALUE "FileDescription", "Uzbek - yangi alifbo (AltGr) Keyboard Layout"
+      VALUE "FileVersion", VERSTR
+      VALUE "InternalName", "uzaltgr"
+      VALUE "LegalCopyright", "MIT License"
+      VALUE "OriginalFilename", "uzaltgr.dll"
+      VALUE "ProductName", "Uzbek yangi alifbo AltGr"
+      VALUE "ProductVersion", VERSTR
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END

@@ -17,7 +17,7 @@
 
 ---
 
-> **Muhim:** bu **norasmiy**, koʻngilli ravishda qilingan ochiq kodli loyiha.
+> **Diqqat!** bu **notijoriy loyiha**, koʻngilli ravishda qilingan ochiq kodli loyiha.
 > Hech qanday davlat tashkiloti bilan bogʻliq emas.
 
 ## Nega bu loyiha?

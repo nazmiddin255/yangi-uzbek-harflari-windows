@@ -15,6 +15,10 @@
   <a href="README.en.md">English</a>
 </p>
 
+<p align="center">
+  <a href="#-qanday-yaratilgan"><img src="https://img.shields.io/badge/AI%20yordamida-yaratilgan-8A2BE2" alt="AI yordamida yaratilgan"></a>
+</p>
+
 ---
 
 > **Diqqat!** bu **notijoriy loyiha**, koʻngilli ravishda qilingan ochiq kodli loyiha.
@@ -139,6 +143,22 @@ Oʻrnatuvchi quyidagi ishlarni qiladi:
 | Oʻchirish dasturi | `C:\Program Files\Uzbek yangi alifbo AltGr\` |
 
 Jim (sokin) oʻrnatish uchun: `setup.exe /S`. Jim oʻchirish uchun: `uninstall.exe /S`.
+
+## 🤖 Qanday yaratilgan
+
+Bu loyiha **AI (sunʼiy intellekt) yordamida** yaratilgan. Loyiha kichik boʻlgani uchun kodning katta qismini yozish AI ga topshirildi, bu vaqtni tejaydi. Ammo loyiha qanday ishlashi, qaysi texnologiya nima uchun tanlangani va qanday tekshirilishi mening nazoratimda boʻlgan.
+
+Men nima qildim:
+- loyiha maqsadi va talablarini belgiladim;
+- texnologiyalarni tanladim (pastda nima uchun ekani yozilgan);
+- kodni oʻqib chiqdim, Windows 11 da sinab koʻrdim;
+- topilgan xatolarni aniqlab, toʻgʻrilatdim va yakuniy variantni tasdiqladim.
+
+**Texnik tuzilishi:**
+- Klaviatura — Windows ning haqiqiy klaviatura DLL i (`uzaltgr.dll`), C tilida yozilgan (`src/uzaltgr.c`, `KBDTABLES` tuzilmasi). AutoHotkey kabi fonda ishlaydigan dastur kerak emas.
+- DLL Linux da `mingw-w64` bilan kross-kompilyatsiya qilinadi; 64-bit va 32-bit (SysWOW64) versiyalari yigʻiladi.
+- Oʻrnatuvchi — NSIS (`installer/setup.nsi`): DLL ni nusxalaydi va reyestrga klaviatura yozuvini qoʻshadi.
+- GitHub Actions (`build.yml`) har bir reliz uchun `setup.exe` va `SHA256SUMS.txt` ni avtomatik yasaydi.
 
 ## Masʼuliyatdan voz kechish
 

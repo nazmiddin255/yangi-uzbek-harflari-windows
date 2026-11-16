@@ -23,3 +23,11 @@ The installer is not code-signed, so SmartScreen may warn you (*More info → Ru
 **Build from source** (Linux/WSL): `sudo apt install mingw-w64 nsis python3 && ./build.sh`. See [docs/TAHRIRLASH.md](docs/TAHRIRLASH.md) (Uzbek) for how to change the layout.
 
 Provided **as is**, without warranty. Not affiliated with any government body. License: [MIT](LICENSE).
+
+## 🤖 How it was built
+
+[![Built with AI assistance](https://img.shields.io/badge/built%20with-AI%20assistance-8A2BE2)](#-how-it-was-built)
+
+Built **with AI assistance**: since the project is small, most of the code was written by an AI to save time. I defined the goal and requirements, chose the technologies, reviewed the code, tested it on Windows 11 and got the bugs fixed.
+
+Technical overview: a real Windows keyboard-layout DLL written in C (`KBDTABLES`, no background process like AutoHotkey), cross-compiled on Linux with `mingw-w64` (x64 + 32-bit for SysWOW64), packaged with an NSIS installer that registers the layout in the registry, and built automatically by GitHub Actions with SHA-256 checksums.

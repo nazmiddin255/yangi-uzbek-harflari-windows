@@ -27,6 +27,9 @@ Provided **as is**, without warranty. Not affiliated with any government body. L
 ## 🤖 How it was built
 
 [![Built with AI assistance](https://img.shields.io/badge/built%20with-AI%20assistance-8A2BE2)](#-how-it-was-built)
+[![Reviewed by developer](https://img.shields.io/badge/reviewed%20by-developer-2EA44F)](#-how-it-was-built)
+
+✅ **All code has been reviewed by the developer and tested on Windows 11.**
 
 Built **with AI assistance**: since the project is small, most of the code was written by an AI to save time. I defined the goal and requirements, chose the technologies, reviewed the code, tested it on Windows 11 and got the bugs fixed.
 

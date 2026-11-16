@@ -17,6 +17,7 @@
 
 <p align="center">
   <a href="#-qanday-yaratilgan"><img src="https://img.shields.io/badge/AI%20yordamida-yaratilgan-8A2BE2" alt="AI yordamida yaratilgan"></a>
+  <a href="#-qanday-yaratilgan"><img src="https://img.shields.io/badge/dasturchi-tekshirgan-2EA44F" alt="Dasturchi tomonidan tekshirilgan"></a>
 </p>
 
 ---
@@ -147,6 +148,8 @@ Jim (sokin) oʻrnatish uchun: `setup.exe /S`. Jim oʻchirish uchun: `uninstall.e
 ## 🤖 Qanday yaratilgan
 
 Bu loyiha **AI (sunʼiy intellekt) yordamida** yaratilgan. Loyiha kichik boʻlgani uchun kodning katta qismini yozish AI ga topshirildi, bu vaqtni tejaydi. Ammo loyiha qanday ishlashi, qaysi texnologiya nima uchun tanlangani va qanday tekshirilishi mening nazoratimda boʻlgan.
+
+✅ **Barcha kod dasturchi (loyiha muallifi) tomonidan tekshirilgan va Windows 11 da sinovdan oʻtkazilgan.**
 
 Men nima qildim:
 - loyiha maqsadi va talablarini belgiladim;
